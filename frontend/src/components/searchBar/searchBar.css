@@ -1,0 +1,23 @@
+.searchBar_container {
+  background-color: white;
+  padding: 5px;
+  max-width: 300px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  min-width: 200px;
+}
+.searchBar_container > input {
+  width: 95%;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+.searchBar_container > span {
+  color: black;
+  margin-right: 0.5rem;
+  margin-top: 3px;
+  font-size: 1rem;
+}

@@ -1,0 +1,165 @@
+.post_container {
+  background-color: rgba(92, 86, 86, 0.4);
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-size: cover;
+  display: flex;
+  width: 80%;
+  height: 420px;
+  padding: 15px;
+  word-spacing: 2px;
+  line-height: 1.6rem;
+  color: black;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.post_container > li {
+  height: 47px;
+  list-style-type: none;
+}
+
+#title {
+  font-size: 2.5rem;
+  position: relative;
+  top: 0.6rem;
+  margin-top: 1rem;
+  width: 95%;
+  overflow-wrap: anywhere;
+  overflow: auto;
+}
+
+#subTitle {
+  font-size: 1.7rem;
+  position: relative;
+  top: 0.3rem;
+  width: 95%;
+  overflow-wrap: anywhere;
+  overflow: auto;
+}
+
+.status {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0.3rem;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  text-align: center;
+  margin: auto auto;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.green {
+  background-color: rgb(56, 109, 56);
+  width: 130px;
+  height: 70px !important;
+}
+.yellow {
+  background-color: rgb(244, 244, 114);
+  width: 130px;
+  height: 70px !important;
+}
+.red {
+  background-color: rgb(200, 85, 85);
+  width: 130px;
+  height: 70px !important;
+}
+
+#createdAt {
+  font-size: 0.7rem;
+  position: absolute;
+  top: 0rem;
+  right: 0.5rem;
+}
+
+#updateAt {
+  font-size: 0.7rem;
+  position: absolute;
+  right: 0.5rem;
+  line-height: 20px;
+}
+
+.comments {
+  max-width: 700px;
+  height: 185px;
+  background-color: rgba(69, 69, 69, 0.3);
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.delete_button {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.comments_container {
+  position: relative;
+  width: 100%;
+  min-width: 180px;
+  height: 47%;
+  bottom: 0.2rem;
+}
+
+.CommentForm_container {
+  position: absolute;
+  width: 104%;
+  bottom: 0;
+}
+
+.post_edit_icon {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 5px;
+  right: 3rem;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  #createdAt,
+  #updateAt {
+    font-size: 0.6rem;
+    line-height: 15px;
+  }
+  #title {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  #subTitle {
+    font-size: 1rem;
+  }
+
+  .post_container > li {
+    height: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #title {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  #subTitle {
+    font-size: 1rem;
+    margin: 0px;
+    line-height: 10px;
+    position: relative;
+    top: 15px;
+  }
+
+  .post_container > li {
+    height: 45px;
+    margin-top: 7px;
+  }
+}

@@ -1,0 +1,32 @@
+.post_edit {
+  position: absolute;
+  width: 96%;
+  max-width: 700px;
+  height: 30px;
+}
+
+.post_edit > .temp > textarea {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  z-index: 1;
+  outline: none;
+}
+
+.post_edit > .temp > textarea:focus {
+  min-height: 30px;
+  position: relative;
+}
+
+.post_edit > .temp > span {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.5rem;
+  font-size: 1.5rem;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.post_edit > .temp > textarea::-webkit-scrollbar {
+  display: none;
+}

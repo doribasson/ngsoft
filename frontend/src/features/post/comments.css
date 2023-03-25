@@ -1,0 +1,29 @@
+.comments_container > ul > div > li {
+  margin-left: -0.5rem;
+  list-style-type: none;
+}
+
+#comment_date {
+  font-size: 0.6rem;
+  position: relative;
+  top: -0.6rem;
+}
+
+.add_comment {
+  max-width: 700px;
+  background-color: white;
+}
+
+.trash_comment {
+  position: relative;
+  left: -1rem;
+  cursor: pointer;
+  top: 5px;
+}
+
+.comment_body {
+  width: 95%;
+  overflow-wrap: break-word;
+  position: relative;
+  top: 5px;
+}

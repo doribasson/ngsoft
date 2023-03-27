@@ -2,11 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
+    "start2": "node backend/server.js",
+    "start": "cd ./backend && node server.js",
     "server": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "client": "..cd npm start --prefix frontend",
     "devt": "npm run server && cd frontend npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
